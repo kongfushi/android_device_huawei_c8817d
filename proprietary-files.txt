@@ -823,16 +823,18 @@ vendor/lib/mmi_wifi.so
 
 # Nfc
 bin/nfc_detect
+-app/NfcDNci.apk
+-app/GsmaNfcService.apk
+-framework/com.gsma.services.nfc.jar
+-framework/com.gsma.services.utils.jar
 lib/hw/nfc_nci_pn547.default.so
 lib/libnfc_nci_jni_nxp.so
 lib/libnfc_ndef.so
 lib/libnfc-nci-nxp.so
-etc/libnfc-brcm.conf
-etc/libnfc-nxp.conf
 vendor/firmware/libpn547_fw.so
-vendor/lib/hw/nfc_nci.msm8916.so
-vendor/lib/libnfcD_nci_jni.so
-vendor/lib/libnfcD-nci.so
+-vendor/lib/hw/nfc_nci.msm8916.so
+-vendor/lib/libnfcD_nci_jni.so
+-vendor/lib/libnfcD-nci.so
 
 # Perf
 bin/mpdecision
