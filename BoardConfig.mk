@@ -72,6 +72,9 @@ PRODUCT_BOOT_JARS := $(subst $(space),:,$(PRODUCT_BOOT_JARS))
 # Enable suspend during charger mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
+# Fonts
+EXTENDED_FONT_FOOTPRINT := true
+
 # Graphics
 TARGET_USES_ION := true
 TARGET_USES_NEW_ION_API :=true
