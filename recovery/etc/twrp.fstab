@@ -10,6 +10,7 @@
 /misc         emmc   /dev/block/bootdevice/by-name/misc
 /firmware     vfat   /dev/block/bootdevice/by-name/modem
 /system       ext4   /dev/block/bootdevice/by-name/system         flags=display="系统分区(system)"
+/cust         ext4   /dev/block/bootdevice/by-name/cust
 
 /external_sd  vfat   /dev/block/mmcblk1p1 /dev/block/mmcblk1      flags=display="外置SD卡(external_sd)";storage;wipeingui;removable
 /usbdisk      vfat   /devices/platform/msm_hsusb                  flags=display="OTG-U盘(usbdisk)";storage;removable
