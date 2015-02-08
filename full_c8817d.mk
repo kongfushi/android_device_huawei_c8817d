@@ -23,8 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/huawei/c8817d/device.mk)
 
-PRODUCT_DEVICE := msm8916_32
-PRODUCT_NAME := msm8916_32
+PRODUCT_DEVICE := c8817d
+PRODUCT_NAME := cm_c8817d
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := C8817D
 PRODUCT_MANUFACTURER := HUAWEI
